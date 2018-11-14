@@ -62,7 +62,11 @@ html {
 
   a::after {
     content: " <" attr(href) ">";
-    color: #666;
+    color: #000;
+  }
+
+  .inset-img {
+      border: 1px solid #000;
   }
 
 }
